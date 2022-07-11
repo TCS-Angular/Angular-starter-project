@@ -1,0 +1,19 @@
+<h2>this is the user form component</h2>
+<h2>fill out the details below</h2>
+
+<div class="input-group input-group-sm mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-sm">Name</span>
+    <input type="text" [(ngModel)]="user.name" placeholder="Enter your name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+  </div>
+<div class="input-group input-group-sm mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-sm">City</span>
+    <input type="text" [(ngModel)]="user.city" placeholder="Enter your City" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+  </div>
+<div class="input-group input-group-sm mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-sm">Age</span>
+    <input type="text" [(ngModel)]="user.age" placeholder="Enter your Age" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+  </div>
+<br />
+<div class="d-grid gap-2">
+    <button class="btn btn-primary" type="button" (click)="save()">Submit</button>
+  </div>
