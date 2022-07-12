@@ -17,3 +17,11 @@
 <div class="d-grid gap-2">
     <button class="btn btn-primary" type="button" (click)="save()">Submit</button>
   </div>
+  <br/>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item" *ngFor="let u of users; index as i">
+        <span>User's name is : {{u.name}}</span>
+        <br/>
+        <span>User's age is : {{u.age}}</span>
+    </li>
+  </ul>
