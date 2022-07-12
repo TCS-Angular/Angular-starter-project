@@ -1,5 +1,5 @@
 export default class User {
-    name:String=  ' ';
-    city:String =  ' ';
+    name:string=  ' ';
+    city:string =  ' ';
     age:number= 0;
 }
