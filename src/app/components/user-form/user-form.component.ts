@@ -11,6 +11,14 @@ export class UserFormComponent implements OnInit {
   user: User = new User();
   users: User[] = [];
 
+  deleteRow(user, index) {
+    const observable = this.userService.deleteUser(user);
+    observable.subscribe((response: any) => {
+      console.log(response);
+      this.users.splice(index, 1);
+    });
+  }
+
   save() {
     // console.log(this.user.name);
     // console.log(this.user.city);
