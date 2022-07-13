@@ -1,0 +1,8 @@
+<p>add-product Form</p>
+
+ <form [formGroup]="addProductTypesForm">
+    <input type="text" formControlName="productName">
+    <textarea formControlName="productDescription"></textarea>
+    <button (click)="addProductType()">Add product type</button>
+
+ </form>
