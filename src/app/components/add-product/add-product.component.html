@@ -36,6 +36,16 @@
   </p>
 </form>
 
+
+<div>
+  <h1>Pipe examples</h1>
+  <h3>Product name is {{product.ProductName | uppercase}}</h3>
+  <h3>color is {{product.color | lowercase}}</h3>
+  <h3>Price: {{product.price | currency:"INR"}}</h3>
+  <h3>Launched on : {{product.launchedOn | date}}</h3>
+  <h5>PID: {{product.ProductId}}</h5>
+</div>
+
 <!-- 
  <form [formGroup]="addProductTypesForm">
     <input type="text" formControlName="productName">

@@ -23,6 +23,14 @@ export class AddProductComponent implements OnInit {
     
   }
 
+  product = {
+    ProductName:"Samsung Galaxy s22",
+    color:"Pearl white",
+    price: "70000",
+    launchedOn : Date.now(),
+    ProductId: "hdgfyuwgbajsbn2213ghbh2134j"
+  }
+
   constructor() { }
 
   ngOnInit(): void {
