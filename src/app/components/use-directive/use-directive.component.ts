@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UseDirectiveComponent implements OnInit {
 
-  sucess= false;
+  success_msg= true;
+  success_flag = false;
+
 
   constructor() { }
 

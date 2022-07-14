@@ -1,6 +1,17 @@
 <p>use-directive works!</p>
-<div *ngIf="sucess">
+<div class="bg-success" *ngIf="success_msg; then updated_msg; else error_msg">
 
     Product added sucessfully 
 
 </div>
+<ng-template #updated_msg>
+
+    Product was updated
+
+</ng-template>
+
+<ng-template #error_msg>
+
+    Product was not added 
+
+</ng-template>
