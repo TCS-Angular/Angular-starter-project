@@ -9,6 +9,8 @@ import {HttpClientModule} from '@angular/common/http';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AddProductComponent } from './components/add-product/add-product.component';
 import { EllipsisPipe } from './ellipsis.pipe';
+import { UseDirectiveComponent } from './components/use-directive/use-directive.component';
+import { HighlightDirective } from './highlight.directive';
 
 
 
@@ -18,7 +20,9 @@ import { EllipsisPipe } from './ellipsis.pipe';
     UserFormComponent,
     NavbarComponent,
     AddProductComponent,
-    EllipsisPipe
+    EllipsisPipe,
+    UseDirectiveComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
