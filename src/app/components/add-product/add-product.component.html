@@ -43,7 +43,7 @@
   <h3>color is {{product.color | lowercase}}</h3>
   <h3>Price: {{product.price | currency:"INR"}}</h3>
   <h3>Launched on : {{product.launchedOn | date}}</h3>
-  <h5>PID: {{product.ProductId}}</h5>
+  <h5>PID: {{product.ProductId | ellipsis}}</h5>
 </div>
 
 <!-- 
