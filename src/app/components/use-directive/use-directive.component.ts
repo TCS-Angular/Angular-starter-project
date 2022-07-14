@@ -10,6 +10,8 @@ export class UseDirectiveComponent implements OnInit {
   success_msg= true;
   success_flag = false;
 
+  cars="tesla"
+
 
   constructor() { }
 
